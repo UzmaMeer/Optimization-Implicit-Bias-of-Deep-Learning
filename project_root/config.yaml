@@ -1,0 +1,18 @@
+# Experimental Setup
+data:
+  n_samples: 40
+  d_features: 100
+  k_sparsity: 5
+
+# Optimization Hyperparameters
+hyperparameters:
+  alpha_val: 0.01
+  gamma: 0.1
+  n_iterations: 50000
+  delta_t: 0.05
+  seed: 42
+
+paths:
+  data_dir: "data"
+  results_dir: "results"
+  checkpoints_dir: "checkpoints"
